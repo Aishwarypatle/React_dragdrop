@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import DropBox from "./components/DropBox";
-import { XMarkIcon } from '@heroicons/react/20/solid'
 
 const App = () => {
   const [prevFile, setPrevFile] = useState([]);
